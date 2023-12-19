@@ -3,5 +3,6 @@
 To install SDK to your project you need to do the following things:
 - Install `@paytweed/frontend-sdk-react-native` lib
 - Install `react-native-webview` lib with version `13.6.3` or higher
-
+- Reinstall pods with `cd ios && pod install`
+- Wrap your application with `TweedFrontendMobileSdkProvider`
   
