@@ -1664,43 +1664,45 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@paytweed/frontend-sdk-core@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@paytweed/frontend-sdk-core/-/frontend-sdk-core-0.0.7.tgz#888f204ac883df509baadeed5f5c25e0804d539e"
-  integrity sha512-bT2THHfa2bHvKUvKY5IjojYbtCEA0C9PfO1+zfnyYkmo8DwCZzgC2vfZQcGdN4+SrqY5UBMGX+tqtP71yDrIwg==
+"@paytweed/frontend-sdk-core@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@paytweed/frontend-sdk-core/-/frontend-sdk-core-0.0.8.tgz#04696a7d0ffd8438638d081efa817926e57f51d7"
+  integrity sha512-by+/+AZQirE6aVx/5axmg5+KigT6H18kqDidpiN6y2rSaNhmqrkL/AEeKjysXnAvPPTC8UizYsbsVXV1dv0x3A==
   dependencies:
     "@json-rpc-tools/provider" "1.7.6"
     "@json-rpc-tools/utils" "1.7.6"
+    events "^3.3.0"
 
-"@paytweed/frontend-sdk-react-core@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@paytweed/frontend-sdk-react-core/-/frontend-sdk-react-core-0.0.7.tgz#0f86e83c1feed350ceb75e19986c7d4bd133230b"
-  integrity sha512-btrHaikGNAk7zsFEr8VKiQqj6V0dBV7IbXc4qjUEknm03WutujJDMQywU+5YgOBt1FFxAuvEuy9tqSGGoh0edA==
+"@paytweed/frontend-sdk-react-core@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@paytweed/frontend-sdk-react-core/-/frontend-sdk-react-core-0.0.8.tgz#303446628922f1883890e5998928fc7e14d3ec28"
+  integrity sha512-8/kszcF/89Qne953xTNyVEtg1x/sxYoT3mXi57HDT3Dt3nDjyRniiq9hBtfn0Hs+3wfeHdm3epuUEbO6RxuLhg==
 
-"@paytweed/frontend-sdk-react-native@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@paytweed/frontend-sdk-react-native/-/frontend-sdk-react-native-0.0.7.tgz#5f5cb77ef3ce0e26cae24d8096cb03c5ac70a7da"
-  integrity sha512-+hL+vIePj53Y2pArPL8/Vq+eRXaULDk5zpN0BLtGaAG02qS15NizRtBgfAhkSMTmy08gKsZBPzovZ0CdUD9PrA==
+"@paytweed/frontend-sdk-react-native@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@paytweed/frontend-sdk-react-native/-/frontend-sdk-react-native-0.0.8.tgz#548f1c2d4841144ee64a71ae95791f5e29707b9b"
+  integrity sha512-/aim6vZ2bWkzsLaKm7gmWvVlJOtM4XwdAQEAOuwm/AOrFqPCDCwaog6lZ+Q/Nrk2cE38oASkbTttfK1xX1bQFg==
   dependencies:
     "@emotion/react" "11.10.6"
     "@emotion/styled" "11.10.6"
     "@json-rpc-tools/provider" "1.7.6"
     "@json-rpc-tools/utils" "1.7.6"
-    "@paytweed/frontend-sdk-core" "0.0.7"
-    "@paytweed/frontend-sdk-react-core" "0.0.7"
-    "@paytweed/shared-sdk" "2.0.7"
+    "@paytweed/frontend-sdk-core" "0.0.8"
+    "@paytweed/frontend-sdk-react-core" "0.0.8"
+    "@paytweed/shared-sdk" "2.0.8"
     "@tanstack/react-query" "4.29.5"
     buffer "6.0.3"
+    events "3.3.0"
     lodash "4.17.21"
     react-dom "18.2.0"
     react-is "18.2.0"
     react-native-uuid "2.0.1"
     styled-components "5.3.10"
 
-"@paytweed/shared-sdk@2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@paytweed/shared-sdk/-/shared-sdk-2.0.7.tgz#3eee02ad2d1711becf692bcec70237041d8fccdb"
-  integrity sha512-BG5iDLqHcbYv6W0yY1CsbdYRAjNu+cwVmLVaqV30mr3s0O98WiIgc4icJCNhjUIA33XzLJjgQvj1M43fm9PM6A==
+"@paytweed/shared-sdk@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@paytweed/shared-sdk/-/shared-sdk-2.0.8.tgz#5e789c2e4e0cc92f0b867cdd9d544908c93ef6b2"
+  integrity sha512-CtbHaLlqkAkbA277XAuhJNLkhZT+cT2H15GxykZ2mIFvCjAeiaEYQHt866T0l9IrjZ4tMi1GiZ/9YGNooqkJTA==
   dependencies:
     buffer "6.0.3"
 
@@ -3680,6 +3682,11 @@ event-target-shim@^5.0.0, event-target-shim@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
   integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
+
+events@3.3.0, events@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
+  integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
 execa@^5.0.0, execa@^5.1.1:
   version "5.1.1"
